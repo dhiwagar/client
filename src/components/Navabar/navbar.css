@@ -1,0 +1,31 @@
+.navbar{
+    height: 80px;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+.left{
+  display: flex;  
+  align-items: center;
+  gap: 25px;
+}
+.right{
+  display: flex;  
+  align-items: center;
+  gap: 25px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+
+}
+.center{
+ font-size: 30px;
+ letter-spacing: 4px;
+ align-items: center;
+ 
+}

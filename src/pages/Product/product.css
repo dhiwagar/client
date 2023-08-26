@@ -1,0 +1,104 @@
+.Product_list{
+    padding: 20px 50px;
+    display: flex;
+    gap: 50px;
+
+}
+
+.left-list{
+    flex: 1;
+    display: flex;
+    gap: 20px;
+}
+
+.img-list{
+    flex: 1;
+}
+.img-list img{
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.main-images{
+    flex: 5;
+}
+.main-images img{
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+
+}
+.price{
+    font-size: 20px;
+    font-weight: 500;
+    color: #2879fe;
+}
+.right-list{
+flex: 1;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.right-list p{
+font-size: 18px;
+text-align: justify;
+}
+.quanity button{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+
+}
+.quanity {
+   
+    display: flex;
+    align-items: center;
+   gap: 10px;
+    
+}
+.add-card-btn{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    background-color: #2879fe;
+    gap: 20px;
+    color: white;
+
+
+}
+.links{
+    display: flex;
+    gap:20px
+  
+}
+.item-add{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #2879fe; 
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: gray;
+    font-size: 14px;
+    margin-top: 30px;
+
+}
+hr{
+    width: 200px;
+    border: 1px solid light gray;
+}
